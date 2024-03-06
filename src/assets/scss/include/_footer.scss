@@ -1,0 +1,18 @@
+.footer-main-wrapper{
+    display: flex;
+    justify-content: center;
+    background-color: $primary;
+}
+
+.footer-wrapper{
+    display: flex;
+    margin-bottom: 0px;
+    list-style-type: none;
+    li{
+        margin: 10px;
+        a{
+            color: #fff;
+            font-size: 13px;
+        }
+    }
+}

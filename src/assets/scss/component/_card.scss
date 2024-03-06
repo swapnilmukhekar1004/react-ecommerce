@@ -1,0 +1,52 @@
+.card{
+    
+    position: relative;
+    box-shadow: $shadow1 !important;
+    border: none !important;
+    min-height: 300px !important;
+    transition: all 2s ease;
+
+
+    &:hover{
+        top: -10px;
+      
+    }
+}
+
+.card-img-top{
+    width: 130px !important;
+    height: 130px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.product-title{
+    font-size: 14px;
+}
+
+.product-price{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    font-size: 17px;
+    background-color: #d72323;
+    color: #fff;
+    padding: 5px;
+}
+
+.product-view-details{
+    position: absolute;
+    bottom: 7%;
+    transform: translateX(-50%);
+
+}
+
+.product-view-details{
+    color: #d72323ad;
+    text-transform: capitalize;
+
+    &:hover{
+        color: $primary;
+    }
+}

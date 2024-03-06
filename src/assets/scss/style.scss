@@ -1,0 +1,48 @@
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+ 
+    
+}
+
+
+
+//variable
+
+$primary:#d72323;
+$grey-background:#f1f3f7;
+
+
+
+
+//text color
+$text-grey:#4a4c59;
+
+
+
+
+
+//shadow
+$shadow1:rgb(100 100 111 / 40%) 0px 7px 29px 0px;
+$header-shadow:0px 5px 30px rgba(0, 0, 0, 0.05);
+
+
+//import files
+@import 'variables.scss';
+@import 'format.scss';
+
+//Include section
+@import 'include/header';
+@import 'include/footer';
+
+//components
+@import 'component/card';
+@import 'component/loader';
+
+
+
+
+body{
+    background-color: $grey-background !important;
+}

@@ -1,0 +1,150 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  color: #4a4c59;
+  margin-bottom: 0px !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.layout-section {
+  padding: 60px 0px;
+  min-height: 100vh;
+  max-height: auto;
+}
+
+.heading-title {
+  padding: 50px 0px;
+  text-transform: uppercase;
+}
+
+.product-detail-img {
+  width: 400px;
+  height: 400px;
+  display: block;
+  margin: auto;
+  border: 1px solid rgba(128, 128, 128, 0.2901960784);
+  padding: 37px;
+}
+
+.product-details-price {
+  font-size: 38px;
+  font-weight: 700;
+  color: #d72323;
+  margin-top: 5px 0px;
+}
+
+.product-descritption-title {
+  font-size: 22px;
+}
+
+.details-description {
+  font-size: 14px;
+  margin: 23px 0px;
+}
+
+.nav-link a {
+  text-decoration: none !important;
+  color: #4a4c59;
+}
+.nav-link a.active {
+  color: #d72323;
+}
+
+.navbar {
+  padding: 15px 0px !important;
+  box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.05);
+}
+
+.footer-main-wrapper {
+  display: flex;
+  justify-content: center;
+  background-color: #d72323;
+}
+
+.footer-wrapper {
+  display: flex;
+  margin-bottom: 0px;
+  list-style-type: none;
+}
+.footer-wrapper li {
+  margin: 10px;
+}
+.footer-wrapper li a {
+  color: #fff;
+  font-size: 13px;
+}
+
+.card {
+  position: relative;
+  box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px !important;
+  border: none !important;
+  min-height: 300px !important;
+  transition: all 2s ease;
+}
+.card:hover {
+  top: -10px;
+}
+
+.card-img-top {
+  width: 130px !important;
+  height: 130px;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.product-title {
+  font-size: 14px;
+}
+
+.product-price {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  font-size: 17px;
+  background-color: #d72323;
+  color: #fff;
+  padding: 5px;
+}
+
+.product-view-details {
+  position: absolute;
+  bottom: 7%;
+  transform: translateX(-50%);
+}
+
+.product-view-details {
+  color: rgba(215, 35, 35, 0.6784313725);
+  text-transform: capitalize;
+}
+.product-view-details:hover {
+  color: #d72323;
+}
+
+.loader-main {
+  z-index: -1;
+  min-height: 100vh;
+  position: absolute;
+  width: 100%;
+  top: 0%;
+}
+
+.loader-spinner-section {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+body {
+  background-color: #f1f3f7 !important;
+}
+
+/*# sourceMappingURL=style.css.map */

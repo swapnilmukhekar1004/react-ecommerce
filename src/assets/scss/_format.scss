@@ -1,0 +1,49 @@
+p {
+    color: $text-grey;
+    margin-bottom: 0px !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+
+.layout-section {
+    padding: 60px 0px;
+    min-height: 100vh;
+    max-height: auto;
+
+}
+
+.heading-title {
+    padding: 50px 0px;
+    text-transform: uppercase;
+}
+
+
+.product-detail-img{
+    width: 400px;
+    height: 400px;
+    display: block;
+    margin: auto;
+    border: 1px solid #8080804a;
+    padding: 37px;
+}
+
+.product-details-price{
+    font-size: 38px;
+    font-weight: 700;
+    color: $primary;
+    margin-top: 5px 0px;
+}
+
+.product-descritption-title{
+    font-size: 22px;
+    
+}
+
+
+.details-description{
+    font-size: 14px;
+    margin: 23px 0px;
+}

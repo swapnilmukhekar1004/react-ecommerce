@@ -1,0 +1,16 @@
+.loader-main{
+    z-index: -1;
+    min-height: 100vh;
+    position: absolute;
+  
+    width: 100%;
+    top: 0%;
+}
+
+.loader-spinner-section{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+
+}

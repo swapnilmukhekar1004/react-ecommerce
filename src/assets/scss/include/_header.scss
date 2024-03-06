@@ -1,0 +1,17 @@
+.nav-link{
+  a{
+    text-decoration: none !important;
+    color: $text-grey;
+  }
+
+  a.active{
+    color: $primary;
+
+  }
+}
+
+.navbar{
+    padding: 15px 0px !important;
+    box-shadow: $header-shadow;
+}
+
