@@ -54,8 +54,24 @@ a {
 }
 
 .details-description {
-  font-size: 14px;
+  line-height: 1.45;
+  font-size: 12px;
   margin: 23px 0px;
+}
+
+.main-wrapper-home {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.home-img {
+  width: 400px;
+  margin-top: -10%;
+}
+
+.big-title-heading {
+  font-size: 48px;
+  font-weight: 700;
 }
 
 .line-animation {
@@ -102,13 +118,13 @@ a {
 .navbar {
   padding: 15px 0px !important;
   box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.05);
-  background: #2874f0 !important;
+  background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
 }
 
 .footer-main-wrapper {
   display: flex;
   justify-content: center;
-  background-color: #2874f0;
+  background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
 }
 
 .footer-wrapper {
@@ -184,6 +200,45 @@ a {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.buttons {
+  margin: 10%;
+  text-align: center;
+}
+
+.btn-hover {
+  width: 200px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  height: 55px;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.btn-hover:hover {
+  background-position: 100% 0;
+  moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.btn-hover:focus {
+  outline: none;
+}
+
+.btn-hover.color-9 {
+  background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
+  box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
 }
 
 /*# sourceMappingURL=style.css.map */

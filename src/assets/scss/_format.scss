@@ -58,6 +58,25 @@ a {
 
 
 .details-description{
-    font-size: 14px;
+    line-height: 1.45;
+    font-size: 12px;
     margin: 23px 0px;
+}
+
+
+//home style start here
+.main-wrapper-home{
+    width: 100%;
+    min-height: 100vh;
+ 
+}
+
+.home-img{
+    width:400px;
+    margin-top: -10%;
+}
+
+.big-title-heading{
+    font-size: 48px;
+    font-weight: 700;
 }
