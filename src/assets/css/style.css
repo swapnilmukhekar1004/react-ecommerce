@@ -22,26 +22,35 @@ a {
 .heading-title {
   padding: 50px 0px;
   text-transform: uppercase;
+  text-align: left;
+  font-size: 14px;
 }
 
 .product-detail-img {
   width: 400px;
   height: 400px;
-  display: block;
-  margin: auto;
-  border: 1px solid rgba(128, 128, 128, 0.2901960784);
+  display: flex;
+  background-color: #fff;
+  box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
   padding: 37px;
+  border-radius: 7px;
 }
 
 .product-details-price {
-  font-size: 38px;
+  font-size: 26px;
   font-weight: 700;
   color: #d72323;
-  margin-top: 5px 0px;
+  margin: 8px 0px;
+}
+
+.product-details-category {
+  font-size: 12px;
+  text-transform: capitalize;
+  color: #878787;
 }
 
 .product-descritption-title {
-  font-size: 22px;
+  font-size: 17px;
 }
 
 .details-description {
@@ -49,23 +58,57 @@ a {
   margin: 23px 0px;
 }
 
+.line-animation {
+  position: relative;
+  color: #080808;
+  -webkit-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+  padding-bottom: 5px;
+}
+
+.line-animation:before {
+  width: 28px;
+  height: 5px;
+  display: block;
+  content: "";
+  position: absolute;
+  bottom: 3px;
+  left: 50%;
+  margin-left: -14px;
+  background-color: #b80000;
+}
+
+.line-animation:after {
+  width: 100px;
+  height: 1px;
+  display: block;
+  content: "";
+  position: relative;
+  margin-top: 25px;
+  left: 50%;
+  margin-left: -50px;
+  background-color: #b80000;
+}
+
 .nav-link a {
   text-decoration: none !important;
-  color: #4a4c59;
+  color: #fff;
 }
 .nav-link a.active {
-  color: #d72323;
+  border-bottom: 2px solid #fff;
 }
 
 .navbar {
   padding: 15px 0px !important;
   box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.05);
+  background: #2874f0 !important;
 }
 
 .footer-main-wrapper {
   display: flex;
   justify-content: center;
-  background-color: #d72323;
+  background-color: #2874f0;
 }
 
 .footer-wrapper {
@@ -108,8 +151,8 @@ a {
   position: absolute;
   top: 0%;
   left: 0%;
-  font-size: 17px;
-  background-color: #d72323;
+  font-size: 11px;
+  background-color: #388e3c;
   color: #fff;
   padding: 5px;
 }
@@ -125,7 +168,7 @@ a {
   text-transform: capitalize;
 }
 .product-view-details:hover {
-  color: #d72323;
+  color: #388e3c;
 }
 
 .loader-main {
@@ -141,10 +184,6 @@ a {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-
-body {
-  background-color: #f1f3f7 !important;
 }
 
 /*# sourceMappingURL=style.css.map */

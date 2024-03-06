@@ -18,27 +18,41 @@ a {
 .heading-title {
     padding: 50px 0px;
     text-transform: uppercase;
+    text-align: left;
+    font-size: 14px;
+ 
 }
 
 
 .product-detail-img{
     width: 400px;
+ 
     height: 400px;
-    display: block;
-    margin: auto;
-    border: 1px solid #8080804a;
+   
+    display: flex;
+  
+    background-color: #fff;
+    box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
     padding: 37px;
+    border-radius: 7px;
 }
 
+
 .product-details-price{
-    font-size: 38px;
+    font-size: 26px;
     font-weight: 700;
-    color: $primary;
-    margin-top: 5px 0px;
+    color: #d72323;
+    margin: 8px 0px;
+}
+
+.product-details-category{
+    font-size: 12px;
+    text-transform: capitalize;
+    color: $text-grey2;
 }
 
 .product-descritption-title{
-    font-size: 22px;
+    font-size: 17px;
     
 }
 

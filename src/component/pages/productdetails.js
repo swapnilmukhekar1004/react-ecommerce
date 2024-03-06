@@ -49,7 +49,7 @@ export default function ProductDetails() {
       <div className='container'>
 
         <div>
-          <h1 className='heading-title'>Details Page</h1>
+          <h1 className='heading-title line-animation'>Details Page > </h1>
         </div>
 
 
@@ -64,6 +64,7 @@ export default function ProductDetails() {
 
               <div className='col-lg-7 text-start'>
                 <h2 className='product-descritption-title'>{card.title}</h2>
+                <p className='product-details-category'>category : {card.category}</p>
                 <p className='product-details-price'>Price: ${card.price}</p>
                 <p className='details-description'>{card.description}</p>
 

@@ -3,11 +3,14 @@ import React from 'react'
 export default function Home() {
   return (
     <>
-     <div>home</div>
-     <div>home</div>
-     <div>home</div>
-     <div>home</div>
-     <div>home</div>
+        <section>
+          <div className='container'>
+          <div>
+                    <h1 className='heading-title'>Product{">"}</h1>
+                 </div>
+
+          </div>
+        </section>
      
     </>
   )

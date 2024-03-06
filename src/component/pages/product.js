@@ -56,7 +56,7 @@ export default function Product() {
             <div className='container'>
 
                  <div>
-                    <h1 className='heading-title'>Product</h1>
+                    <h1 className='heading-title'>Product{">"}</h1>
                  </div>
 
 

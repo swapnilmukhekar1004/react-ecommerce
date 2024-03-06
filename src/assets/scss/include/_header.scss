@@ -1,11 +1,11 @@
 .nav-link{
   a{
     text-decoration: none !important;
-    color: $text-grey;
+    color: #fff;
   }
 
   a.active{
-    color: $primary;
+    border-bottom: 2px solid #fff;
 
   }
 }
@@ -13,5 +13,6 @@
 .navbar{
     padding: 15px 0px !important;
     box-shadow: $header-shadow;
+    background: #2874f0 !important;
 }
 
