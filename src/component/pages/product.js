@@ -5,11 +5,14 @@ import { useState, useEffect } from 'react';
 import axios from 'axios';
 import Spinner from 'react-bootstrap/Spinner';
 import { Link } from 'react-router-dom';
+import { useDispatch } from 'react-redux';
+import { Add } from '../../redux/action';
 
 
 
 export default function Product() {
 
+  
     const [data, setData] = useState([]);
     const [loading, setLoading] = useState(true);
 
@@ -27,6 +30,17 @@ export default function Product() {
         fetchData();
     }, []);
 
+       //card data (redux)
+       const dispatch = useDispatch();
+
+      const send = (e)=> {
+       dispatch(Add(e));
+       // console.log(e);
+       // Add(e);
+
+
+    }
+  
 
 
 
@@ -47,6 +61,9 @@ export default function Product() {
     }
 
 
+   
+
+
 
 
 
@@ -61,7 +78,7 @@ export default function Product() {
 
 
                 <div className='row'>
-                    {data.map((product) => {
+                    {data.map((product ,id) => {
                         return (
 
                             <div className='col-lg-4 col-md-6'>
@@ -73,6 +90,7 @@ export default function Product() {
                                         <h6>{product.category}</h6>
                                         {/* <p>{product.description.split(' ').slice(0, 2).join(' ')}.....</p> */}
                                         <Link to={`/productDetails/${product.id}`} className='product-view-details'>View Details</Link>
+                                        <button type='button' onClick={ ()=> send(product)}>Add Card</button>
 
                                     </Card.Body>
                                 </Card>

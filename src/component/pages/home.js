@@ -27,21 +27,21 @@ export default function Home() {
 
 
 
-  if (loading) {
-    return <div>
-      <div className='loader-main'>
-        <div className='position-relative w-100 min-vh-100'>
-          <div className='loader-spinner-section'>
-            <Spinner animation="border" /><br />
-            Loading Please Wait
-          </div>
-        </div>
+  // if (loading) {
+  //   return <div>
+  //     <div className='loader-main'>
+  //       <div className='position-relative w-100 min-vh-100'>
+  //         <div className='loader-spinner-section'>
+  //           <Spinner animation="border" /><br />
+  //           Loading Please Wait
+  //         </div>
+  //       </div>
 
-      </div>
+  //     </div>
 
 
-    </div>;
-  }
+  //   </div>;
+  // }
 
 
 
@@ -54,13 +54,15 @@ export default function Home() {
             <div className='container'>
               <div>
                 <div className='row'>
-                  <div className='col-lg-6  text-start'>
-                    <h1 className='big-title-heading mb-4'>There For Headset Time Song.</h1>
-                    <p>There are many variations of passages of Lorem Ipsum
-                      alley of type and scrambled it some.</p>
+                  <div className='col-lg-6  text-start d-flex align-items-center'>
+                    <div>
+                      <h1 className='big-title-heading mb-4'>There For Headset Time Song.</h1>
+                      <p>There are many variations of passages of Lorem Ipsum
+                        alley of type and scrambled it some.</p>
 
-                    <div className='mt-3'>
-                      <button class="btn-hover color-9">Shop Now</button>
+                      <div className='mt-3'>
+                        <button class="btn-hover color-9">Shop Now</button>
+                      </div>
                     </div>
 
                   </div>
@@ -75,7 +77,7 @@ export default function Home() {
 
 
 
-              
+
 
 
 
@@ -86,36 +88,36 @@ export default function Home() {
 
 
           <div className='container'>
-          <div>
-                <div className='row'>
-                  {data.map((product) => {
-                    return (
+            <div>
+              <div className='row'>
+                {data.map((product) => {
+                  return (
 
-                      <div className='col-lg-4 col-md-6'>
-                        <Card key={product.id} className='mb-4'>
-                          <Card.Img variant="top" src={product.image} />
-                          <Card.Body>
-                            <h5 className='product-title'>{product.title}</h5>
-                            <h3 className='product-price'>Price : ${product.price}</h3>
-                            <h6>{product.category}</h6>
-                            {/* <p>{product.description.split(' ').slice(0, 2).join(' ')}.....</p> */}
-                            <Link to={`/productDetails/${product.id}`} className='product-view-details'>View Details</Link>
+                    <div className='col-lg-4 col-md-6'>
+                      <Card key={product.id} className='mb-4'>
+                        <Card.Img variant="top" src={product.image} />
+                        <Card.Body>
+                          <h5 className='product-title'>{product.title}</h5>
+                          <h3 className='product-price'>Price : ${product.price}</h3>
+                          <h6>{product.category}</h6>
+                          {/* <p>{product.description.split(' ').slice(0, 2).join(' ')}.....</p> */}
+                          <Link to={`/productDetails/${product.id}`} className='product-view-details'>View Details</Link>
 
-                          </Card.Body>
-                        </Card>
-
-
-                      </div>
-
-                    )
-
-                  })}
+                        </Card.Body>
+                      </Card>
 
 
-                </div>
+                    </div>
+
+                  )
+
+                })}
 
 
               </div>
+
+
+            </div>
 
 
           </div>

@@ -1,0 +1,90 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "signup-post": [
+    {
+      "username": "swapnil",
+      "gmail": "tt@gmail.com",
+      "password": "2323",
+      "id": 1
+    },
+    {
+      "username": "me",
+      "gmail": "me@gmail.com",
+      "password": "565655",
+      "id": 2
+    },
+    {
+      "username": "me",
+      "gmail": "me@gmail.com",
+      "password": "565655",
+      "id": 3
+    },
+    {
+      "username": "me",
+      "gmail": "me@gmail.com",
+      "password": "565655",
+      "id": 4
+    },
+    {
+      "username": "me",
+      "gmail": "me@gmail.com",
+      "password": "565655",
+      "id": 5
+    },
+    {
+      "username": "me",
+      "gmail": "me@gmail.com",
+      "password": "565655",
+      "id": 6
+    },
+    {
+      "username": "me",
+      "gmail": "me@gmail.com",
+      "password": "565655",
+      "id": 7
+    },
+    {
+      "username": "me",
+      "gmail": "me@gmail.com",
+      "password": "565655",
+      "id": 8
+    },
+    {
+      "username": "me",
+      "gmail": "me@gmail.com",
+      "password": "565655",
+      "id": 9
+    },
+    {
+      "username": "me",
+      "gmail": "me@gmail.com",
+      "password": "565655",
+      "id": 10
+    },
+    {
+      "username": "new",
+      "gmail": "tt@gmail.com",
+      "password": "3232",
+      "id": 11
+    },
+    {
+      "id": 12
+    }
+  ]
+}

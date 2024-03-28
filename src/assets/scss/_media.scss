@@ -1,0 +1,46 @@
+@media(max-width:991px){
+    .big-title-heading {
+        font-size: 61px;
+        
+    }
+
+    .home-img {
+        margin-top: 11%;
+        width: 42%;
+    }
+    
+    .product-detail-img {
+        
+        margin: auto;
+    }
+
+    .product-detail-img {
+       
+        margin-bottom: 24px;
+    }
+    
+  
+}
+
+
+@media(max-width:556px){
+    .home-img {
+        width: 48%;
+        margin-top: 14%;
+    }
+
+    .big-title-heading {
+        font-size: 34px;
+        
+    }
+
+    .footer-wrapper {
+        padding-left: 0px !important;
+    }
+
+    .product-detail-img {
+        width: 100%;
+        height: auto;
+       
+    }
+}
